@@ -15,4 +15,3 @@ restcraft==0.0.15
 ruff==0.4.1
 urllib3==2.2.1
 w3lib==2.1.2
-pdm==2.16.1

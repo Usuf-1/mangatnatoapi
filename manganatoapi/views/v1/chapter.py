@@ -29,7 +29,7 @@ class ChapterView(View):
         images = service.images(req.params['chapter'])
 
         return utils.success_response(
-            'Chapter images fetched successful.', payload=images
+            'Chapter images fetched successful.', payload=images,ttps=0,current_page=0
         )
 
     def on_exception(self, req: Request, exc: Exception) -> JSONResponse:

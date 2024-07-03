@@ -87,7 +87,7 @@ class MangaInfoView(View):
         )
 
         return utils.success_response(
-            'Latest manga info fetched successful.', payload=manga_info
+            'Latest manga info fetched successful.', payload=manga_info,ttps=0,current_page=0
         )
 
     def on_exception(self, req: Request, exc: Exception) -> JSONResponse:
